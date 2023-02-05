@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #05002a;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+form{
+    border: #fff solid 1px;
+    display: flex;
+    flex-direction: column;align-items: center;
+    width: fit-content;
+    margin-top: 10%;
+    padding: 3%;
+}
+form > p{
+    font-size: 15pt;
+}
+input[type=text] , select , input[type=password]{
+    outline: none;
+    padding: 5px;
+    margin: 5px;
+    background: transparent;
+    color: #fff;
+    border: none;
+    border-bottom: 2px solid #fff;
+    text-align: center;
+    width: 70%;
+}
+input[type=submit]{
+    padding: 5px;
+    margin: 5px;
+    background: transparent;
+    color: #fff;
+    border: none;
+    text-align: center;
+    width: 40%;
+    cursor: pointer;
+}

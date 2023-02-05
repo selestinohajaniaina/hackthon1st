@@ -1,0 +1,54 @@
+.file{
+    width: 40%;
+    margin: 2% 0 0 0;
+    /* border: #000 solid 1px; */
+    overflow: auto;
+}
+.navi{
+    box-shadow: 0 1px 10px  #000;
+    font-size: 15pt;
+}
+#search{
+    border: transparent solid 1px;
+    border-bottom: #000 solid 1px;
+    border-right: #000 solid 1px;
+}
+button{
+    background: none;
+    border: transparent;
+}
+#search{
+    width: 80%;
+    height: 20px;
+}
+#icon{
+    max-width: 15px;
+}
+
+.addFile{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border-bottom: #000 solid 1px;
+    padding: 0 0 10px 0;
+    margin: 2px 0 10px 0;
+}
+.addFile>input{
+    margin: 1%;
+}
+.title{
+    width:50%;
+    padding: 2px;
+    margin: 2px;
+}
+.tel{
+    width: 25px;
+}
+.listFichier{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+.listFichier> span{
+    margin: 0 20px 20px 0;
+}

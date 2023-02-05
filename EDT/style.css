@@ -1,0 +1,15 @@
+.edt{
+    overflow: auto;
+}
+.inter{
+    margin: 5px;
+    padding: 20px;
+    width: auto;
+    position: relative;
+}
+.tel{
+    width: 20px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
